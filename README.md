@@ -210,7 +210,7 @@ SourceCode/
    ```
 2. Otwórz projekt `SourceCode/ES-PROJ-X-Electric-shop-oven.X` w MPLAB X IDE.<br>
    Open the project `SourceCode/ES-PROJ-X-Electric-shop-oven.X` in MPLAB X IDE.<br>
-3. Zbuduj projekt kompilatorem XC8 (Build).<br><br>
+3. Zbuduj projekt kompilatorem XC8 (Build).<br>
    Build the project using the XC8 compiler.<br>
 4. Uruchom wynikowy plik `.hex` w PICSimLab, korzystając z konfiguracji płytki McLab1 - PIC16F628A.<br>
    Load the resulting `.hex` file into PICSimLab, using the board configuration McLab1 - PIC16F628A.<br>
