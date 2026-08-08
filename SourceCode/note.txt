@@ -1,0 +1,4 @@
+Dodawanie plików do projektu:
+-----------------------------
+-> Pliki .h należy dodać do sekcji "Header Files"
+-> Pliki .c należy dodać do sekcji "Source Files"
