@@ -67,7 +67,7 @@ The oven is controlled with buttons wired to Port A, while its status is signale
 
 ### Port B
 
-Port B pełni funkcję zbiorczą — steruje diodami LED oraz wyświetlaczem siedmiosegmentowym, w zależności od aktualnego stanu maszyny (wybór programu, poziom nagrzania, animacja przygotowania do czyszczenia, sygnał "dzwonka", pozostały czas lub kod błędu).
+Port B pełni funkcję zbiorczą — steruje diodami LED oraz wyświetlaczem siedmiosegmentowym, w zależności od aktualnego stanu maszyny (wybór programu, poziom nagrzania, animacja przygotowania do czyszczenia, sygnał "dzwonka", pozostały czas lub kod błędu).<br>
 Port B is multi-purpose — it drives the LEDs and the seven-segment display depending on the current state (selected program, heating level, cleaning-prep animation, "bell" signal, remaining time, or error code).
 
 | Pin | Wyjście steruje / Output drives | W stanie READY sygnalizuje / In READY signals |
@@ -93,7 +93,7 @@ oraz ścieżka czyszczenia / plus the cleaning path:
 
 `STATE_READY` → `STATE_INSERT_CARTRIDGE` → `STATE_PREPARE_TO_CLEANING` → `STATE_CLEANING` → `STATE_GET_PRODUCTS`
 
-Z każdego stanu, w przypadku wykrycia awarii (`FaultSimulationButton`), następuje przejście do `STATE_ERROR`, a po jej usunięciu — powrót do `STATE_DISABLED`.
+Z każdego stanu, w przypadku wykrycia awarii (`FaultSimulationButton`), następuje przejście do `STATE_ERROR`, a po jej usunięciu — powrót do `STATE_DISABLED`.<br>
 From any state, if a fault is detected (`FaultSimulationButton`), the machine transitions to `STATE_ERROR`; once resolved, it returns to `STATE_DISABLED`.
 
 | Stan / State | Opis / Description |
@@ -117,7 +117,7 @@ Diagram maszyny stanowej/State Machine Diagram
 
 ## Programy pracy pieca / Oven programs
 
-Programy kodowane są metodą „1 z n” (one-hot), co pozwala przełączać je operacjami obrotu bitowego (`ROT_R1`, `ROT_L1`).
+Programy kodowane są metodą „1 z n” (one-hot), co pozwala przełączać je operacjami obrotu bitowego (`ROT_R1`, `ROT_L1`).<br>
 Programs are one-hot encoded, allowing selection via bitwise rotation (`ROT_R1`, `ROT_L1`).
 
 | Program | Wartość / Value | Opis / Description |
@@ -148,7 +148,7 @@ Programs are one-hot encoded, allowing selection via bitwise rotation (`ROT_R1`,
 | 8 | `ERROR_FOR_STATE_PREPARE_TO_CLEANING` | `STATE_PREPARE_TO_CLEANING` |
 | 9 | `ERROR_FOR_STATE_CLEANING` | `STATE_CLEANING` |
 
-Kod błędu wyświetlany jest na wyświetlaczu siedmiosegmentowym. Powrót do pracy (po naprawie) następuje po wciśnięciu `OkButton` (RA3).
+Kod błędu wyświetlany jest na wyświetlaczu siedmiosegmentowym. Powrót do pracy (po naprawie) następuje po wciśnięciu `OkButton` (RA3).<br>
 The error code is shown on the seven-segment display. Recovery happens by pressing `OkButton` (RA3) after the fault is fixed.
 
 ---
