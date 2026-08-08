@@ -109,7 +109,7 @@ From any state, if a fault is detected (`FaultSimulationButton`), the machine tr
 | `STATE_ERROR` | Stan awarii — wyświetlany kod błędu / Fault state — error code shown on display |
 
 Diagram maszyny stanowej/State Machine Diagram
-![SMD1-Shop-oven](Docs/SMD1-Shop-oven.png)
+![SMD1-Shop-oven](Docs/SMD1-Shop-oven.jpg)
 
 ---
 
