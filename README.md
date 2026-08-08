@@ -208,24 +208,24 @@ SourceCode/
    ```bash
    git clone https://github.com/A-t-l-as/Embedded_Systems_Project-Electric_shop_oven
    ```
-2. Otwórz projekt `SourceCode/ES-PROJ-X-Electric-shop-oven.X` w MPLAB X IDE.
-   Open the project `SourceCode/ES-PROJ-X-Electric-shop-oven.X` in MPLAB X IDE.
-3. Zbuduj projekt kompilatorem XC8 (Build).
-   Build the project using the XC8 compiler.
-4. Uruchom wynikowy plik `.hex` w PICSimLab, korzystając z konfiguracji płytki McLab1 - PIC16F628A.
-   Load the resulting `.hex` file into PICSimLab, using the board configuration McLab1 - PIC16F628A.
-5. Przytrzymaj `PowerButton` (RA1), aby uruchomić piec.
-   Hold `PowerButton` (RA1) to power on the oven.
-6. Aby zmienić program na wyższy lub niższy - należy użyć RA1 lub RA2.
-   To change the program to a higher or lower setting, use RA1 or RA2.
-7. Aby zaakceptować wybór należy wcisnąć RA3.
-   To accept your selection, press RA3.
-8. Aby potwierdzić wprowadzenie produktów do pieca - należy wcisnąć RA3.
-   To confirm that products have been loaded into the oven, press RA3.
-9. Aby potwierdzić wyjęcie produktów - należy wcisnąć RA3.
-   To confirm that products have been removed, press RA3.
-10. W celu zasymulowania awarii należy wcisnąć RA4, natomiast aby zakończyć awarię należy wprowadzić RA3.
-    To simulate a malfunction, press RA4; to end the malfunction, press RA3.
+2. Otwórz projekt `SourceCode/ES-PROJ-X-Electric-shop-oven.X` w MPLAB X IDE.<br>
+   Open the project `SourceCode/ES-PROJ-X-Electric-shop-oven.X` in MPLAB X IDE.<br>
+3. Zbuduj projekt kompilatorem XC8 (Build).<br><br>
+   Build the project using the XC8 compiler.<br>
+4. Uruchom wynikowy plik `.hex` w PICSimLab, korzystając z konfiguracji płytki McLab1 - PIC16F628A.<br>
+   Load the resulting `.hex` file into PICSimLab, using the board configuration McLab1 - PIC16F628A.<br>
+5. Przytrzymaj `PowerButton` (RA1), aby uruchomić piec.<br>
+   Hold `PowerButton` (RA1) to power on the oven.<br>
+6. Aby zmienić program na wyższy lub niższy - należy użyć RA1 lub RA2.<br>
+   To change the program to a higher or lower setting, use RA1 or RA2.<br>
+7. Aby zaakceptować wybór należy wcisnąć RA3.<br>
+   To accept your selection, press RA3.<br>
+8. Aby potwierdzić wprowadzenie produktów do pieca - należy wcisnąć RA3.<br>
+   To confirm that products have been loaded into the oven, press RA3.<br>
+9. Aby potwierdzić wyjęcie produktów - należy wcisnąć RA3.<br>
+   To confirm that products have been removed, press RA3.<br>
+10. W celu zasymulowania awarii należy wcisnąć RA4, natomiast aby zakończyć awarię należy wprowadzić RA3.<br>
+    To simulate a malfunction, press RA4; to end the malfunction, press RA3.<br>
 
 ---
 
