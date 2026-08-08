@@ -184,8 +184,8 @@ SourceCode/
 <th>Pieczenie z odliczaniem / Baking with countdown</th>
 </tr>
 <tr>
-<td width="50%"><img src="docs/screenshot-loading.png" width="380"/></td>
-<td width="50%"><img src="docs/screenshot-baking.png" width="380"/></td>
+<td width="50%"><img src="Docs/screenshot-loading.png" width="380"/></td>
+<td width="50%"><img src="Docs/screenshot-baking.png" width="380"/></td>
 </tr>
 <tr>
 <td>Diody LED (RB0–RB7) zapalają się kolejno, sygnalizując postęp nagrzewania pieca. / LEDs (RB0–RB7) light up one by one, signaling the oven's heating progress.</td>
