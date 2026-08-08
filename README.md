@@ -1,10 +1,10 @@
 # Elektryczny Piec Sklepowy — Sterownik PIC16F628A / Electric Shop Oven Controller
 
-Projekt semestralny — Systemy Wbudowane (Informatyka, sem. letni 2025/2026)
-Semester project — Embedded Systems course (Computer Science, spring 2025/2026)
+Projekt semestralny — Systemy Wbudowane (Informatyka, sem. letni 2025/2026)<br>
+Semester project — Embedded Systems course (Computer Science, spring 2025/2026)<br>
 
-Implementacja uproszczonego sterownika elektrycznego pieca sklepowego oparta na mikrokontrolerze **PIC16F628A**, uruchamiana w emulatorze **PICSimLab**.
-A simplified controller for an electric shop oven, built for the **PIC16F628A** microcontroller and run in the **PICSimLab** emulator.
+Implementacja uproszczonego sterownika elektrycznego pieca sklepowego oparta na mikrokontrolerze **PIC16F628A**, uruchamiana w emulatorze **PICSimLab**.<br>
+A simplified controller for an electric shop oven, built for the **PIC16F628A** microcontroller and run in the **PICSimLab** emulator.<br>
 
 ---
 
@@ -108,8 +108,8 @@ From any state, if a fault is detected (`FaultSimulationButton`), the machine tr
 | `STATE_CLEANING` | Mycie pieca / Cleaning the oven |
 | `STATE_ERROR` | Stan awarii — wyświetlany kod błędu / Fault state — error code shown on display |
 
-Pełny diagram maszyny stanowej znajduje się w dokumentacji projektu (`ES_Projekt_2025-26_Doc.pdf`).
-The full state diagram is available in the project documentation (`ES_Projekt_2025-26_Doc.pdf`).
+Diagram maszyny stanowej/State Machine Diagram
+![SMD1-Shop-oven](docs/SMD1-Shop-oven.png)
 
 ---
 
