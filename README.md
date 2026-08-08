@@ -6,6 +6,8 @@ Semester project — Embedded Systems course (Computer Science, spring 2025/2026
 Implementacja uproszczonego sterownika elektrycznego pieca sklepowego oparta na mikrokontrolerze **PIC16F628A**, uruchamiana w emulatorze **PICSimLab**.<br>
 A simplified controller for an electric shop oven, built for the **PIC16F628A** microcontroller and run in the **PICSimLab** emulator.<br>
 
+![Sterownik w trakcie pieczenia — PICSimLab](Docs/screenshot-baking.png)
+
 ---
 
 ## Opis projektu (PL)
@@ -171,6 +173,15 @@ SourceCode/
 
 > Ścieżka względna projektu MPLAB X w repozytorium / Relative path to the MPLAB X project in this repo:
 > `SourceCode/ES-PROJ-X-Electric-shop-oven.X`
+
+---
+
+## Demo
+
+| Animacja ładowania / Loading animation | Pieczenie z odliczaniem / Baking with countdown |
+|---|---|
+| ![Animacja ładowania](Docs/screenshot-loading.png) | ![Pieczenie](Docs/screenshot-baking.png) |
+| Diody LED (RB0–RB7) zapalają się kolejno, sygnalizując postęp nagrzewania pieca. / LEDs (RB0–RB7) light up one by one, signaling the oven's heating progress. | Po osiągnięciu temperatury i włożeniu produktów, wyświetlacz siedmiosegmentowy pokazuje pozostały czas pieczenia. / Once the target temperature is reached and products are inserted, the seven-segment display shows the remaining baking time. |
 
 ---
 
